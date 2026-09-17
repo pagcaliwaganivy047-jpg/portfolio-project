@@ -93,3 +93,28 @@ body {
   font-size: 16px;
   margin-bottom: 6px;
 }
+
+.skills-section{
+  padding: 60px 120px;
+  border-top: 1px solid lightgray;
+}
+
+.skills-section h2{
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.skills-container{
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.skill-card{
+  width: 180px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+}
