@@ -293,3 +293,72 @@ th {
 .contact-form button:hover {
   background-color: #c7c7c7;
 }
+
+@media (max-width: 768px) {
+  .main-navigation {
+    padding: 14px 24px;
+  }
+
+  .main-navigation ul {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+
+  .intro-section,
+  .about-section,
+  .skills-section,
+  .projects-section,
+  .experience-section,
+  .contact-section {
+    padding: 40px 24px;
+  }
+
+  .intro-section {
+    min-height: auto;
+  }
+
+  .about-columns {
+    flex-direction: column;
+  }
+
+  .about-box {
+    width: 100%;
+  }
+
+  .skills-container {
+    flex-wrap: wrap;
+  }
+
+  .skill-card {
+    width: calc(50% - 8px);
+  }
+
+  .projects-container {
+    flex-direction: column;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+
+  .project-card img {
+    height: auto;
+  }
+
+  .experience-section {
+    overflow-x: auto;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .intro-text h1,
+  .about-section h2,
+  .skills-section h2,
+  .projects-section h2,
+  .experience-section h2,
+  .contact-section h2 {
+    font-size: 24px;
+  }
+}
