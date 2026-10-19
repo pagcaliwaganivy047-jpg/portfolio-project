@@ -294,6 +294,13 @@ th {
   background-color: #c7c7c7;
 }
 
+.site-footer {
+  padding: 24px 80px;
+  background-color: #d9d9d9;
+  text-align: center;
+  font-size: 14px;
+}
+
 @media (max-width: 768px) {
   .main-navigation {
     padding: 14px 24px;
@@ -361,4 +368,9 @@ th {
   .contact-section h2 {
     font-size: 24px;
   }
+
+  .site-footer {
+  padding: 24px;
+  }
+
 }
